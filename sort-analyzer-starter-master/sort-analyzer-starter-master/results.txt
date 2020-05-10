@@ -1,0 +1,43 @@
+SORT ANALYZER RESULTS
+**********************************************************
+BUBBLE SORT - Average Time to Sort Array
+Random Array: 251.95 milliseconds
+Reversed Array: 195.34 milliseconds
+Nearly Sorted Array: 131.40 milliseconds
+Few Unique Array: 130.90 milliseconds
+
+SELECTION SORT - Average Time to Sort Array
+Random Array: 77.055 milliseconds
+Reversed Array: 77.374 milliseconds
+Nearly Sorted Array: 77.191 milliseconds
+Few Unique Array: 77.267 milliseconds
+
+INSERTION SORT - Average Time to Sort Array
+Random Array: 29.015 milliseconds
+Reversed Array: 58.060 milliseconds
+Nearly Sorted Array: 0.74409 milliseconds
+Few Unique Array: 0.59599 milliseconds
+***********************************************************
+
+
+SORT ANALYZER OBSERVATIONS
+***********************************************************
+What did you find interesting about the results?
+I found that BUBBLE SORT definetely is the slowest form no matter what when it comes to sorting these arrays but I found it interesting that it handles different arrays better than others.
+I found it interesting that no matter what array you throw into the SELECTION SORT it almost had the same amount of time to sort the given array and if I tested it more it probably would average out to being way closer.
+I found the speed of the INSERTION SORT to be interesting because it's extremely fast when doing the simpler arrays but slows down a ton with more complicated arrays.
+
+The Bubble Sort times should have shown an improved time for the
+Nearly Sorted and Few Unique arrays.  Explain why...
+It does less swapping in the Nearly sorted and few Unique arrays; it still has the same number of comparisons but since it doesn't have to swap them it can continue on to the next comparison quickly.
+
+The Selection Sort times should have been fairly consistent for 
+all of the data arrays.  Explain why...
+Because every swap that happens in an Array finds the exact place for at least one of the two items being compared and that is much faster than only swapping between two elements that are right beside each other in the array.
+
+The Insertion Sort times should have been very fast for the
+Nearly Sorted and Few Unique arrays and much worse for the 
+Reversed array.  Explain why...
+It was really fast for the Nearly sorted and the few Unique arrays because of the amount of elements it was moving over to the right; because it had to move less to the right everytime it was able to do it quickly. But with the other arrays it had to move a lot of elements to the right just to make the array correct and leave the insertion position open for the element that has to be moved to an earlier part of the array.
+
+************************************************************
